@@ -21,7 +21,7 @@ $ composer require oheyou/ltzop dev-main
 
 require __DIR__ .'/vendor/autoload.php';
 
-use Liantong\ZOP\ZopApi;
+use Liantong\Zop\ZopApi;
 
 date_default_timezone_set('PRC');
 
