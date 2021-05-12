@@ -15,7 +15,7 @@
     },
     "autoload":{
         "psr-4":{
-            "Liantong\\ZOP\\":"src"
+            "Liantong\\Zop\\":"src"
         }
     }
 }
