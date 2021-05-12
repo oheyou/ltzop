@@ -1,0 +1,21 @@
+{
+    "name": "oheyou/ltzop",
+    "description": "liantong zop service",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "oheyou",
+            "email": "oheyou@yeah.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php":">=7.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "Liantong\\ZOP\\":"src"
+        }
+    }
+}
