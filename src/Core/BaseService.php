@@ -13,8 +13,8 @@ class BaseService
     public $appRunConfig = [];
 
     public $header = [
-        'Accept:application/json',
-        'Content-Type:application/json;charset=utf-8',
+        'Accept' => 'application/json',
+        'Content-Type' => 'application/json;charset=utf-8',
     ];
 
     public function __construct(Container $app)
