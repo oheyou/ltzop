@@ -31,14 +31,11 @@ class Container implements \ArrayAccess
      */
     public function offsetGet($offset)
     {
-        if (isset($this->instances[$offset])) {
-            return $this->instances[$offset];
+        if (!isset($this->instances[$offset])) {
+            $this->instances[$offset] = $this->values[$offset]($this);
         }
-        $raw = $this->values[$offset];
-        $value = $this->values[$offset] = $raw($this);
-        $this->instances[$offset] = $value;
 
-        return $value;
+        return $this->instances[$offset];
     }
 
     /**
