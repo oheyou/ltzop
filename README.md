@@ -13,7 +13,7 @@ PHP OpenSSL 扩展
 
 ```shell
 $ composer require oheyou/ltzop dev-main
-$ composer require guzzlehttp/guzzle  #guzzle依赖
+$ composer require guzzlehttp/guzzle  #guzzle依赖，如类库已存在请忽略
 ```
 
 ## Usage
